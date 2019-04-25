@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		527514952271DDB400B0EDB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527514942271DDB400B0EDB8 /* AppDelegate.swift */; };
+		527514972271DDB400B0EDB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527514962271DDB400B0EDB8 /* ViewController.swift */; };
+		5275149A2271DDB400B0EDB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527514982271DDB400B0EDB8 /* Main.storyboard */; };
+		5275149D2271DDB400B0EDB8 /* Try5.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5275149B2271DDB400B0EDB8 /* Try5.xcdatamodeld */; };
+		5275149F2271DDB400B0EDB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5275149E2271DDB400B0EDB8 /* Assets.xcassets */; };
+		527514A22271DDB400B0EDB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527514A02271DDB400B0EDB8 /* LaunchScreen.storyboard */; };
+		527514AD2271DDB400B0EDB8 /* Try5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527514AC2271DDB400B0EDB8 /* Try5Tests.swift */; };
+		527514B82271DDB400B0EDB8 /* Try5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527514B72271DDB400B0EDB8 /* Try5UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		527514A92271DDB400B0EDB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 527514892271DDB300B0EDB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 527514902271DDB400B0EDB8;
+			remoteInfo = Try5;
+		};
+		527514B42271DDB400B0EDB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 527514892271DDB300B0EDB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 527514902271DDB400B0EDB8;
+			remoteInfo = Try5;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		527514912271DDB400B0EDB8 /* Try5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Try5.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		527514942271DDB400B0EDB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		527514962271DDB400B0EDB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		527514992271DDB400B0EDB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5275149C2271DDB400B0EDB8 /* Try5.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Try5.xcdatamodel; sourceTree = "<group>"; };
+		5275149E2271DDB400B0EDB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		527514A12271DDB400B0EDB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		527514A32271DDB400B0EDB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		527514A82271DDB400B0EDB8 /* Try5Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Try5Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		527514AC2271DDB400B0EDB8 /* Try5Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Try5Tests.swift; sourceTree = "<group>"; };
+		527514AE2271DDB400B0EDB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		527514B32271DDB400B0EDB8 /* Try5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Try5UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		527514B72271DDB400B0EDB8 /* Try5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Try5UITests.swift; sourceTree = "<group>"; };
+		527514B92271DDB400B0EDB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5275148E2271DDB400B0EDB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		527514A52271DDB400B0EDB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		527514B02271DDB400B0EDB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		527514882271DDB300B0EDB8 = {
+			isa = PBXGroup;
+			children = (
+				527514932271DDB400B0EDB8 /* Try5 */,
+				527514AB2271DDB400B0EDB8 /* Try5Tests */,
+				527514B62271DDB400B0EDB8 /* Try5UITests */,
+				527514922271DDB400B0EDB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		527514922271DDB400B0EDB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				527514912271DDB400B0EDB8 /* Try5.app */,
+				527514A82271DDB400B0EDB8 /* Try5Tests.xctest */,
+				527514B32271DDB400B0EDB8 /* Try5UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		527514932271DDB400B0EDB8 /* Try5 */ = {
+			isa = PBXGroup;
+			children = (
+				527514942271DDB400B0EDB8 /* AppDelegate.swift */,
+				527514962271DDB400B0EDB8 /* ViewController.swift */,
+				527514982271DDB400B0EDB8 /* Main.storyboard */,
+				5275149E2271DDB400B0EDB8 /* Assets.xcassets */,
+				527514A02271DDB400B0EDB8 /* LaunchScreen.storyboard */,
+				527514A32271DDB400B0EDB8 /* Info.plist */,
+				5275149B2271DDB400B0EDB8 /* Try5.xcdatamodeld */,
+			);
+			path = Try5;
+			sourceTree = "<group>";
+		};
+		527514AB2271DDB400B0EDB8 /* Try5Tests */ = {
+			isa = PBXGroup;
+			children = (
+				527514AC2271DDB400B0EDB8 /* Try5Tests.swift */,
+				527514AE2271DDB400B0EDB8 /* Info.plist */,
+			);
+			path = Try5Tests;
+			sourceTree = "<group>";
+		};
+		527514B62271DDB400B0EDB8 /* Try5UITests */ = {
+			isa = PBXGroup;
+			children = (
+				527514B72271DDB400B0EDB8 /* Try5UITests.swift */,
+				527514B92271DDB400B0EDB8 /* Info.plist */,
+			);
+			path = Try5UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		527514902271DDB400B0EDB8 /* Try5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 527514BC2271DDB400B0EDB8 /* Build configuration list for PBXNativeTarget "Try5" */;
+			buildPhases = (
+				5275148D2271DDB400B0EDB8 /* Sources */,
+				5275148E2271DDB400B0EDB8 /* Frameworks */,
+				5275148F2271DDB400B0EDB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Try5;
+			productName = Try5;
+			productReference = 527514912271DDB400B0EDB8 /* Try5.app */;
+			productType = "com.apple.product-type.application";
+		};
+		527514A72271DDB400B0EDB8 /* Try5Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 527514BF2271DDB400B0EDB8 /* Build configuration list for PBXNativeTarget "Try5Tests" */;
+			buildPhases = (
+				527514A42271DDB400B0EDB8 /* Sources */,
+				527514A52271DDB400B0EDB8 /* Frameworks */,
+				527514A62271DDB400B0EDB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				527514AA2271DDB400B0EDB8 /* PBXTargetDependency */,
+			);
+			name = Try5Tests;
+			productName = Try5Tests;
+			productReference = 527514A82271DDB400B0EDB8 /* Try5Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		527514B22271DDB400B0EDB8 /* Try5UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 527514C22271DDB400B0EDB8 /* Build configuration list for PBXNativeTarget "Try5UITests" */;
+			buildPhases = (
+				527514AF2271DDB400B0EDB8 /* Sources */,
+				527514B02271DDB400B0EDB8 /* Frameworks */,
+				527514B12271DDB400B0EDB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				527514B52271DDB400B0EDB8 /* PBXTargetDependency */,
+			);
+			name = Try5UITests;
+			productName = Try5UITests;
+			productReference = 527514B32271DDB400B0EDB8 /* Try5UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		527514892271DDB300B0EDB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "DAO Ibrahim";
+				TargetAttributes = {
+					527514902271DDB400B0EDB8 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					527514A72271DDB400B0EDB8 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 527514902271DDB400B0EDB8;
+					};
+					527514B22271DDB400B0EDB8 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 527514902271DDB400B0EDB8;
+					};
+				};
+			};
+			buildConfigurationList = 5275148C2271DDB300B0EDB8 /* Build configuration list for PBXProject "Try5" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 527514882271DDB300B0EDB8;
+			productRefGroup = 527514922271DDB400B0EDB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				527514902271DDB400B0EDB8 /* Try5 */,
+				527514A72271DDB400B0EDB8 /* Try5Tests */,
+				527514B22271DDB400B0EDB8 /* Try5UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5275148F2271DDB400B0EDB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527514A22271DDB400B0EDB8 /* LaunchScreen.storyboard in Resources */,
+				5275149F2271DDB400B0EDB8 /* Assets.xcassets in Resources */,
+				5275149A2271DDB400B0EDB8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		527514A62271DDB400B0EDB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		527514B12271DDB400B0EDB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5275148D2271DDB400B0EDB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5275149D2271DDB400B0EDB8 /* Try5.xcdatamodeld in Sources */,
+				527514972271DDB400B0EDB8 /* ViewController.swift in Sources */,
+				527514952271DDB400B0EDB8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		527514A42271DDB400B0EDB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527514AD2271DDB400B0EDB8 /* Try5Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		527514AF2271DDB400B0EDB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527514B82271DDB400B0EDB8 /* Try5UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		527514AA2271DDB400B0EDB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 527514902271DDB400B0EDB8 /* Try5 */;
+			targetProxy = 527514A92271DDB400B0EDB8 /* PBXContainerItemProxy */;
+		};
+		527514B52271DDB400B0EDB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 527514902271DDB400B0EDB8 /* Try5 */;
+			targetProxy = 527514B42271DDB400B0EDB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		527514982271DDB400B0EDB8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				527514992271DDB400B0EDB8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		527514A02271DDB400B0EDB8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				527514A12271DDB400B0EDB8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		527514BA2271DDB400B0EDB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		527514BB2271DDB400B0EDB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		527514BD2271DDB400B0EDB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y6388ZY9N9;
+				INFOPLIST_FILE = Try5/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dao.com.Try5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		527514BE2271DDB400B0EDB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y6388ZY9N9;
+				INFOPLIST_FILE = Try5/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dao.com.Try5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		527514C02271DDB400B0EDB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y6388ZY9N9;
+				INFOPLIST_FILE = Try5Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dao.com.Try5Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Try5.app/Try5";
+			};
+			name = Debug;
+		};
+		527514C12271DDB400B0EDB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y6388ZY9N9;
+				INFOPLIST_FILE = Try5Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dao.com.Try5Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Try5.app/Try5";
+			};
+			name = Release;
+		};
+		527514C32271DDB400B0EDB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y6388ZY9N9;
+				INFOPLIST_FILE = Try5UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dao.com.Try5UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Try5;
+			};
+			name = Debug;
+		};
+		527514C42271DDB400B0EDB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y6388ZY9N9;
+				INFOPLIST_FILE = Try5UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dao.com.Try5UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Try5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5275148C2271DDB300B0EDB8 /* Build configuration list for PBXProject "Try5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				527514BA2271DDB400B0EDB8 /* Debug */,
+				527514BB2271DDB400B0EDB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		527514BC2271DDB400B0EDB8 /* Build configuration list for PBXNativeTarget "Try5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				527514BD2271DDB400B0EDB8 /* Debug */,
+				527514BE2271DDB400B0EDB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		527514BF2271DDB400B0EDB8 /* Build configuration list for PBXNativeTarget "Try5Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				527514C02271DDB400B0EDB8 /* Debug */,
+				527514C12271DDB400B0EDB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		527514C22271DDB400B0EDB8 /* Build configuration list for PBXNativeTarget "Try5UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				527514C32271DDB400B0EDB8 /* Debug */,
+				527514C42271DDB400B0EDB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5275149B2271DDB400B0EDB8 /* Try5.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5275149C2271DDB400B0EDB8 /* Try5.xcdatamodel */,
+			);
+			currentVersion = 5275149C2271DDB400B0EDB8 /* Try5.xcdatamodel */;
+			path = Try5.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 527514892271DDB300B0EDB8 /* Project object */;
+}
