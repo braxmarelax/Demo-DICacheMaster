@@ -1,0 +1,11 @@
+framework module DICacheMasterFramework {
+  umbrella header "DICacheMasterFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module DICacheMasterFramework.Swift {
+    header "DICacheMasterFramework-Swift.h"
+    requires objc
+}
